@@ -23,6 +23,7 @@
 </script>
 
 <div class="container">
+  <h1>Transfers Analysis</h1>
   <a href="/transfers">all transfers</a>
   <div class="search-container">
     <input
@@ -39,6 +40,9 @@
 </div>
 
 <style>
+  h1 {
+    text-align: center;
+  }
   .container {
     font-family: monospace;
     width: 80%;

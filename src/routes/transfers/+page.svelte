@@ -12,11 +12,15 @@
 </script>
 
 <div class="container">
+  <h1>Transfers Analysis</h1>
   <a href="/">home</a>
   <TransfersTable {transfers} />
 </div>
 
 <style>
+  h1 {
+    text-align: center;
+  }
   .container {
     font-family: monospace;
     width: 80%;

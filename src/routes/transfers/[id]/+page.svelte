@@ -3,8 +3,8 @@
 </script>
 
 <div class="container">
-  <a href="/">back</a>
   <h1>Player Report</h1>
+  <a href="/">back</a>
   <div>
     <p>
       <span class="data-label">Name:</span>
@@ -40,6 +40,9 @@
 </div>
 
 <style>
+  h1 {
+    text-align: center;
+  }
   .container {
     font-family: monospace;
     width: 80%;
@@ -48,6 +51,10 @@
     padding: 10px 15px;
     min-height: 100vh;
     height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
   .data-label {
     font-weight: bold;
